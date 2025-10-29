@@ -1,7 +1,8 @@
-age=int(input("enter your age")
-        if age>0:
-        print("age can't be negative")
-        elif age>18:
-print("eligible to vote")
+age = int(input("Enter your age: "))
+
+if age < 0:
+    print("Age can't be negative")
+elif age > 18:
+    print("Eligible to vote")
 else:
-print(" not eligible to vote")
+    print("Not eligible to vote")
